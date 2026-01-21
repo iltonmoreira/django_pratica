@@ -6,7 +6,7 @@ from typing import Optional
 class CriarSnippetDto:
     title:str
     code:str
-    linenos:bool =False
+    linenos:bool =True
     language:str ="python"
     style:str ="friendly"
     expires_at: Optional[datetime] = None
@@ -16,7 +16,7 @@ class CriarSnippetDto:
 class AlterarSnippetDto:
     title:str
     code:str
-    linenos:bool =False
+    linenos:bool =True
     language:str ="python"
     style:str ="friendly"
     expires_at: Optional[datetime] = None

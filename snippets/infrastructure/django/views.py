@@ -6,8 +6,8 @@ from django.http import JsonResponse
 import json
 
 from snippets.application.dtos.snippet_dtos import CriarSnippetDto, AlterarSnippetDto, AlterarTituloSnippetDto
-from infrastructure.django.container import snippets_container
-from infrastructure.django.serializers import SnippetSerializer, SnippetSerializertitulo
+from snippets.infrastructure.django.container import snippets_container
+from snippets.infrastructure.django.serializers import SnippetSerializer, SnippetSerializertitulo
 
 
 class SnippetListView(APIView):

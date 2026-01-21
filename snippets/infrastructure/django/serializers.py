@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from infrastructure.django.models import Snippet
+from snippets.infrastructure.django.models import Snippet
 
 
 class SnippetSerializer(serializers.ModelSerializer):

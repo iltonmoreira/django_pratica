@@ -1,10 +1,11 @@
 from functools import cached_property
 
-from infrastructure.django.repositories.snippet_repository import SnippetRepository
+from snippets.infrastructure.django.repositories.snippet_repository import SnippetRepository
 from snippets.application.use_cases.listar_snippets_use_case import ListarSnippetsUseCase
 from snippets.application.use_cases.criar_snippet_use_case import CriarSnippetUseCase
 from snippets.application.use_cases.detalhar_snippet_use_case import DetalharSnippetUseCase
-from snippets.application.use_cases.alterar_snippet_use_case import AlterarSnippetUseCase, AlterarTituloSnippetUseCase
+from snippets.application.use_cases.alterar_snippet_use_case import AlterarSnippetUseCase
+from snippets.application.use_cases.alterar_titulo_snippet_use_case import AlterarTituloSnippetUseCase
 
 
 class SnippetsContainer:

@@ -1,6 +1,6 @@
 from django.urls import path
 
-from infrastructure.django.views import (
+from snippets.infrastructure.django.views import (
     SnippetListView,
     SnippetCreateView,
     SnippetDetailView,

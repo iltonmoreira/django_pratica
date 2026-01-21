@@ -1,7 +1,7 @@
 from django.shortcuts import get_object_or_404
 
 from snippets.application.interfaces.snippet_interface import ISnippetRepository
-from infrastructure.django.models import Snippet
+from snippets.infrastructure.django.models import Snippet
 
 
 class SnippetRepository(ISnippetRepository):
